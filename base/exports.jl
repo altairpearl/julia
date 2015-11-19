@@ -1197,6 +1197,7 @@ export
 
 # multiprocessing
     addprocs,
+    channel_from_id,
     ClusterManager,
     fetch,
     init_worker,
@@ -1213,11 +1214,13 @@ export
     remotecall,
     remotecall_fetch,
     remotecall_wait,
+    remoteref_id,
     rmprocs,
     take!,
     timedwait,
     wait,
     workers,
+    worker_id_from_socket,
 
 # multimedia I/O
     Display,
